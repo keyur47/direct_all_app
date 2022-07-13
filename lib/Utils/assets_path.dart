@@ -1,5 +1,5 @@
 class AssetsPath{
-  static const appLogo = "assets/images/applogo.png";
+  static const appLogo = "assets/images/logo.svg";
   static const notification = "assets/images/notification.png";
   static const star = "assets/images/star.png";
   static const messages = "assets/images/messages.png";

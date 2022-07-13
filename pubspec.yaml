@@ -37,6 +37,9 @@ dependencies:
   get: ^4.6.5
   sizer: ^2.0.15
   fluttertoast: ^8.0.9
+  flutter_svg: ^1.1.1+1
+  loading_indicator: ^3.1.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -79,6 +82,12 @@ flutter:
     - family: Customtext
       fonts:
         - asset: assets/font/Fonts-Regular.ttf
+    - family: Custom
+      fonts:
+        - asset: assets/font/RubikMonoOne-Regular.ttf
+    - family: Customfont
+      fonts:
+        - asset: assets/font/Shrikhand-Regular.ttf
   #       - asset: fonts/Schyler-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
