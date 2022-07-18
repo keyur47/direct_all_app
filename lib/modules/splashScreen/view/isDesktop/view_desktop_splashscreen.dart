@@ -29,13 +29,13 @@ class ViewDesktopSplashScreen extends StatelessWidget {
                       color: AppColor.logoColor,
                     ),
                   ),
-                  Padding(
-                    padding:  EdgeInsets.only(bottom: SizeUtils.horizontalBlockSize * 0.3,left: SizeUtils.horizontalBlockSize * 3.8 ),
-                    child: SizedBox(
-                      width:  SizeUtils.horizontalBlockSize * 5,
-                      child: const Text("D",style: TextStyle(fontWeight: FontWeight.w600,fontSize: 28,fontFamily: "Customfont",color: AppColor.logoColor),),
-                    ),
-                  ),
+                  // Padding(
+                  //   padding:  EdgeInsets.only(bottom: SizeUtils.horizontalBlockSize * 0.3,left: SizeUtils.horizontalBlockSize * 3.8 ),
+                  //   child: SizedBox(
+                  //     width:  SizeUtils.horizontalBlockSize * 5,
+                  //     child: const Text("D",style: TextStyle(fontWeight: FontWeight.w600,fontSize: 28,fontFamily: "Customfont",color: AppColor.logoColor),),
+                  //   ),
+                  // ),
                 ],
               ),
               // SizedBox(height: SizeUtils.verticalBlockSize * 1,),

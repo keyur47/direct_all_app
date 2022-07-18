@@ -1,6 +1,7 @@
 import 'package:direct_all_app/Utils/my_behavior.dart';
 import 'package:direct_all_app/Utils/size_utils.dart';
-import 'package:direct_all_app/modules/homepage/controller/homePageController.dart';
+import 'package:direct_all_app/modules/controller/all_screen_controller.dart';
+import 'package:direct_all_app/modules/whatsapp/controller/WhatsappController.dart';
 import 'package:direct_all_app/widgets/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -12,6 +13,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(const MaterialApp(debugShowCheckedModeBanner: false, home: MyApp()));
 }
+RxBool showNumericContainer = true.obs;
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -32,6 +34,7 @@ class MyApp extends StatelessWidget {
           },
           initialBinding: AppBidding(),
           theme: ThemeData(
+            splashColor: Colors.transparent,
             appBarTheme: const AppBarTheme(
               backgroundColor: Colors.white,
               textTheme: TextTheme(
@@ -54,7 +57,8 @@ class MyApp extends StatelessWidget {
 class AppBidding implements Bindings {
   @override
   void dependencies() {
-    Get.put(HomePageController());
+    Get.put(WhatsappController());
     Get.put(SplashScreenController());
+    Get.put(Controller());
   }
 }

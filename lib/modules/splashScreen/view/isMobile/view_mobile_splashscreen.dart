@@ -29,13 +29,13 @@ class ViewMobileSplashScreen extends StatelessWidget {
                       color: AppColor.logoColor,
                     ),
                   ),
-                  Padding(
-                    padding:  EdgeInsets.only(bottom: SizeUtils.horizontalBlockSize * 2,right: SizeUtils.horizontalBlockSize * 1),
-                    child: SizedBox(
-                      width:  SizeUtils.horizontalBlockSize * 5,
-                      child: const Text("D",style: TextStyle(fontWeight: FontWeight.w600,fontSize: 28,fontFamily: "Customfont",color: AppColor.logoColor),),
-                    ),
-                  ),
+                  // Padding(
+                  //   padding:  EdgeInsets.only(bottom: SizeUtils.horizontalBlockSize * 2,right: SizeUtils.horizontalBlockSize * 1),
+                  //   child: SizedBox(
+                  //     width:  SizeUtils.horizontalBlockSize * 5,
+                  //     child: const Text("D",style: TextStyle(fontWeight: FontWeight.w600,fontSize: 28,fontFamily: "Customfont",color: AppColor.logoColor),),
+                  //   ),
+                  // ),
                 ],
               ),
               // SizedBox(height: SizeUtils.verticalBlockSize * 1,),

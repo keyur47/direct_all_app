@@ -1,10 +1,9 @@
-import 'package:direct_all_app/modules/customappbar/custom_appbar.dart';
 import 'package:direct_all_app/theme/app_color.dart';
-import 'package:direct_all_app/theme/app_string.dart';
 import 'package:flutter/material.dart';
 
-class ViewDesktopHomePage extends StatelessWidget {
-  const ViewDesktopHomePage({Key? key}) : super(key: key);
+class ViewDesktopWhatsapp extends StatelessWidget {
+   ViewDesktopWhatsapp({Key? key}) : super(key: key);
+  final GlobalKey<PopupMenuButtonState<int>> _key = GlobalKey();
 
   @override
   Widget build(BuildContext context) {
@@ -18,14 +17,12 @@ class ViewDesktopHomePage extends StatelessWidget {
           // controller.scrollUp();
         },
       ),
-      body: Column(
-        children: [
-        ],
+      body: Stack(
+        children: [],
       ),
     );
   }
 }
-
 
 
 
